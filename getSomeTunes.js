@@ -25,10 +25,10 @@ fetch(url, {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    // console.log(response);
     return response.json();
   })
   .then((data) => {
+    console.log(data);
     console.log(`Ссылка на скачивание: `, data.audio_url);
   })
   .catch((error) => {
