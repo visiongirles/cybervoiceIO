@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "name": "voice",
+  "version": "1.0.0",
+  "description": "Voice generation"
+}
